@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="title">
+      <h4>Калькулятор Пифагоровых чисел</h4>
+    </div>
+    <div class="calculator-wrapper">
+      <div class="calculator-content">
+        <div class="calculator-item">
+          <input type="text" id="n1" />
+          <sup><small>2&nbsp;</small></sup>
+          <span>&nbsp;+&nbsp;</span>
+          <input type="text" id="n2" />
+          <sup><small>2&nbsp;</small></sup>
+          <span>=&nbsp;</span>
+          <input type="text" id="n3" />
+          <sup><small>2&nbsp;</small></sup>
+        </div>
+        <div class="w-calculatorButton">
+          <button class="calculatorButton" onclick="solvePythagoreanTriplet()">
+            Проверить числа
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="calculator-wrapper">
+      <div class="calculator-content resultWrapper">
+          <legend>Удовлетворяющих соотношению Пифагора:</legend>
+          <div class="pythagorean-equation">
+            <span>x</span>
+            <sup><small>2&nbsp;</small></sup>
+            <span>&nbsp;+&nbsp;</span>
+            <span>y</span>
+            <sup><small>2&nbsp;</small></sup>
+            <span>&nbsp;=&nbsp;</span>
+            <span>z</span>
+            <sup><small>2&nbsp;</small></sup>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

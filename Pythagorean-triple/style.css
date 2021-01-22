@@ -1,0 +1,53 @@
+p {
+    margin-block-end: 0;
+}
+
+span {
+  font-family: MJI;
+  font-style: italic;
+  font-size: 1.1em;
+  display: inline;
+}
+
+.calculator-wrapper {
+    padding: 5px;
+}
+
+.calculator-item {
+  display: flex; 
+}
+
+.calculator-item > input {
+  height: 12px;
+  margin: 3px;
+  text-align: right;
+  width: 3em;    
+}
+
+
+.calculator-content {
+  outline: 1px solid #ccc;
+  padding: 10px 80px;
+}
+
+.calculatorButton {
+  margin: 7px 11px;
+}
+
+.title, 
+.calculator-wrapper, 
+.pythagorean-equation, 
+.w-calculatorButton, 
+.resultWrapper > legend,
+.result-content > div {
+  display: flex;
+  justify-content: center;
+}
+/*Result*/
+
+.result-title {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 10px;
+}
+

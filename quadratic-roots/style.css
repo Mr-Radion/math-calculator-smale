@@ -1,0 +1,77 @@
+p {
+    margin-block-end: 0;
+}
+
+span {
+  font-family: MJI;
+  font-style: italic;
+  font-size: 1.1em;
+  display: inline;
+}
+
+.calculator-wrapper {
+    padding: 5px;
+}
+
+.calculator-item {
+  display: flex; 
+}
+
+.calculator-item > input {
+  height: 12px;
+  margin: 3px;
+  text-align: right;
+  width: 3em;    
+}
+
+.title, .calculator-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator-content {
+  outline: 1px solid #ccc;
+  padding: 10px 80px;
+}
+
+.calculatorButton {
+  margin: 7px 11px;
+}
+
+/*Result*/
+
+.result-title {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.radical-expression, 
+.radical-expression > div:last-child {
+  margin-top: 16px;
+}
+
+.frac { 
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: 0.001em;
+    text-align: center;
+}
+
+.frac > span {
+    display: block;
+    padding: 0.1em;
+}
+
+.frac span.bottom {
+    border-top: thin solid black;
+}
+
+.frac span.symbol {
+    display: none;
+} 
+
+.radical-number {
+    border-top: thin solid black;  
+}
